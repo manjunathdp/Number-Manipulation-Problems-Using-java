@@ -9,8 +9,7 @@ public class LCM_2Nos {
         int a=n1;
         int b=n2;
         int temp,lcm;
-        while (b!=0)
-        {
+        while (b!=0) {
             temp=a%b;
             a=b;
             b=temp;

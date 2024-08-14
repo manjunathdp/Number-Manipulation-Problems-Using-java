@@ -16,13 +16,11 @@ public class PrimeNumber {
             {
                 System.out.println("The given number "+ n + " is a prime number");
             }
-            else
-            {
+            else {
                 System.out.println("The given number "+ n + " is Not a Prime Number");
             }
         }
-        else
-        {
+        else {
             System.out.println("The input value should be grater then 1");
         }
     }

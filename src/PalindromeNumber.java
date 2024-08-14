@@ -7,18 +7,15 @@ public class PalindromeNumber {
         int n=sc.nextInt();
         int rev=0;
         int lastDigit ,temp=n;
-        while (n>0)
-        {
+        while (n>0) {
             lastDigit = n % 10;
             rev = rev*10 + lastDigit;
             n /=10;
         }
-        if (temp == rev)
-        {
+        if (temp == rev) {
             System.out.println("The given number " + temp + " is a Palindrome Number");
         }
-        else
-        {
+        else {
             System.out.println("The given number " + temp + " is Not a Palindrome Number because "+temp+" != "+rev);
         }
     }

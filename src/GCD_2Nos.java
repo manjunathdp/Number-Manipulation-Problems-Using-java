@@ -6,8 +6,7 @@ public class GCD_2Nos {
         int a=sc.nextInt();
         int b= sc.nextInt();
         int atemp=a,btemp=b,temp;
-        while (b!=0)
-        {
+        while (b!=0) {
             temp=a%b;
             a=b;
             b=temp;

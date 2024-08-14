@@ -6,8 +6,6 @@ public class ArnstrongRange1toN {
         System.out.print("Input: ");
         long n=sc.nextLong();
         for (long i = 1; i <=n ; i++) {
-
-
             long temp = i;
             int lastDigit ;
             long armstrong = 0;

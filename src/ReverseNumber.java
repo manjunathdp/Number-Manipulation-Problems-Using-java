@@ -7,8 +7,7 @@ public class ReverseNumber {
         int n=sc.nextInt();
         int rev=0;
         int lastDigit ,temp=n;
-        while (n>0)
-        {
+        while (n>0) {
             lastDigit = n % 10;
             rev = rev*10 + lastDigit;
             n /=10;

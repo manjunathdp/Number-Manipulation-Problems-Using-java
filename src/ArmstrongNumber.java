@@ -9,8 +9,7 @@ public class ArmstrongNumber {
         int lastDigit =0;
         long armstrong=0;
         double length=0;
-        while (n>0)
-        {
+        while (n>0) {
             n /= 10;
             length++;
         }
